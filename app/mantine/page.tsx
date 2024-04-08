@@ -8,7 +8,7 @@ const TextEditor = dynamic(() => import("./editor"), { ssr: false });
 
 export default function Page() {
   return (
-    <div className="p-10">
+    <div className="px-[330px]">
       <MantineProvider>
         <TextEditor />
       </MantineProvider>

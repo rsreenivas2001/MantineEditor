@@ -2,7 +2,7 @@
 import '@mantine/tiptap/styles.css';
 import { RichTextEditor, Link, useRichTextEditorContext } from '@mantine/tiptap';
 import { BubbleMenu, Editor, useEditor } from '@tiptap/react';
-import { IconColorPicker, IconFrame, IconImageInPicture, IconPhoto, IconStar } from '@tabler/icons-react';
+import { IconPhoto } from '@tabler/icons-react';
 import Highlight from '@tiptap/extension-highlight';
 import StarterKit from '@tiptap/starter-kit';
 import Underline from '@tiptap/extension-underline';
@@ -119,8 +119,8 @@ export default function TextEditor() {
     return (
       <RichTextEditor.Control
         onClick={addImage}
-        aria-label="Insert star emoji"
-        title="Insert star emoji"
+        aria-label="Insert Image"
+        title="Insert Image"
       >
         <IconPhoto stroke={1.5} size="1rem" />
       </RichTextEditor.Control>

@@ -30,7 +30,8 @@
     "lowlight": "^3.1.0",
     "next": "14.1.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "tiptap-imagresize": "^1.0.2"
   },
   "devDependencies": {
     "@types/node": "^20",
